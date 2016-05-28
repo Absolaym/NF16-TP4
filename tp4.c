@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include "tp4.h"
 
+
+void emptyBuffer(void)
+{
+  int c;
+  while((c=getchar()) != EOF && c != '\n');
+}
+
+
 Dir *create_dir(char* name, int status, Node *sub, Dir *father) {
     Dir *directory = malloc(sizeof(Dir));
     if(directory == NULL) return NULL;
