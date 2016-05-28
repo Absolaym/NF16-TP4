@@ -1,10 +1,12 @@
 #ifndef TP4_H
 #define TP4_H
 
+struct node;
+
 typedef struct dir {
     char *name;
     int status;
-    Node *sub;
+    struct node *sub;
     struct dir *father;
 } Dir;
 
