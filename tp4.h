@@ -1,6 +1,8 @@
 #ifndef TP4_H
 #define TP4_H
 
+void emptyBuffer(void);
+
 struct node;
 
 typedef struct dir {
