@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1464450785 source:/Users/vbaheux/Desktop/NF16/NF16-TP4/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1464452550 source:/Users/vbaheux/Desktop/NF16/NF16-TP4/tp4.c
+	<stdio.h>
+	<stdlib.h>
+	"tp4.h"
+
+1464452343 /Users/vbaheux/Desktop/NF16/NF16-TP4/tp4.h
+

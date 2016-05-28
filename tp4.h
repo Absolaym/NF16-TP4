@@ -16,7 +16,7 @@ typedef struct node {
     struct node *rc;
 } Node;
 
-Dir *create_dir(char* name, int status, Node *sub);
+Dir *create_dir(char* name, int status, Node *sub, Dir *father);
 
 Node *create_node(Dir *dir, Node *rc, Node *lc);
 
